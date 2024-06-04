@@ -5,17 +5,17 @@
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px)  {
+@media only screen and (min-width: 768px) {
   .hero-section {
     padding-top: 80px;
-    width: 768px;
+    width: 704px;
     height: 900px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-   .hero-section{
-    width: 1280px;
+  .hero-section {
+    width: 1150px;
     height: 889px;
   }
 }
@@ -26,17 +26,24 @@
 }
 
 @media only screen and (min-width: 768px) {
-   .hero-container{
+  .hero-container {
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 
-@media only screen and (min-width: 768px)  {
+@media only screen and (min-width: 768px) {
   .hero-title-box {
-      width: 557px;
-      height: 260px;
-      margin-bottom: 40px;
+    width: 557px;
+    height: 260px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-title-box {
+    width: 597px;
+    height: 269px;
   }
 }
 
@@ -50,9 +57,17 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1278px) {
-   .hero-title{
-font-size: 70px;
-line-height: 0.85;
+  .hero-title {
+    font-size: 70px;
+    line-height: 0.85;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-title {
+    font-size: 72px;
+    line-height: 0.87;
+    letter-spacing: -0.02em;
   }
 }
 
@@ -69,10 +84,16 @@ line-height: 0.85;
   color: rgba(12, 12, 12, 0.7);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1278px) {
-   .hero-paragraph {
+@media only screen and (min-width: 768px) {
+  .hero-paragraph {
     font-size: 16px;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+   .hero-paragraph{
+    width: 480px;
   }
 }
 
@@ -84,12 +105,19 @@ line-height: 0.85;
 }
 
 @media only screen and (min-width: 768px) {
-   .hero-image-box {
+  .hero-image-box {
     margin-left: auto;
     margin-bottom: 0;
     flex-direction: column;
     width: 136px;
     height: 260px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+   .hero-image-box{
+    width: 146px;
+    height: 269px;
   }
 }
 
@@ -104,8 +132,9 @@ line-height: 0.85;
   border: 0;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1278px) {
-   .hero-link-down{
+@media only screen and (min-width: 768px) {
+  .hero-link-down {
     margin-top: auto;
+    font-size: 20px;
   }
 }
