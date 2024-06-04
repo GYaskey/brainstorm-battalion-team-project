@@ -1,0 +1,9 @@
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UserTesting" transform="translate(2, 2)">
+            <rect id="Rectangle" fill="#3350E9" fill-rule="nonzero" x="2" y="2" width="36" height="36" rx="18"></rect>
+            <rect id="Rectangle" stroke-opacity="0.2" stroke="#3350E9" stroke-width="4" x="0" y="0" width="40" height="40" rx="20"></rect>
+            <polygon id="Path" fill="#FBFBFB" fill-rule="nonzero" points="22.74 22.16 24.44 16 27.18 16 24 26 21.54 26 19.7 19.94 17.86 26 15.4 26 12.22 16 14.96 16 16.66 22.14 18.48 16 20.92 16"></polygon>
+        </g>
+    </g>
+</svg>
