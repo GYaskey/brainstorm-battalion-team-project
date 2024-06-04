@@ -9,10 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -32,4 +28,59 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+/* Font styles */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Semibold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
+.container {
+  width: 355px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+    margin: 0 auto;
+    padding: 0 8px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1174 px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
 }
