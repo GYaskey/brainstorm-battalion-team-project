@@ -1,0 +1,121 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: auto;
+  height: 912px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-section {
+    gap: 40px;
+    height: 1064px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-section {
+    flex-direction: row;
+    height: 532px;
+  }
+}
+
+.about-text-container {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  background: #f3f3f3;
+  padding: 40px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-text-container {
+    border-radius: 50px;
+    padding: 80px 60px;
+  }
+}
+
+.about-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-title {
+    font-size: 48px;
+    line-height: 0.91;
+    padding-bottom: 40px;
+  }
+}
+
+.about-descr1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-descr1 {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.about-descr2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-descr2 {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-descr2 {
+    padding-bottom: 40px;
+  }
+}
+
+.about-btn {
+  border-color: transparent;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: grey;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-img {
+    border-radius: 60px;
+  }
+}
