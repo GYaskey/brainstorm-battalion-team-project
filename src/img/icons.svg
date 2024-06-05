@@ -9,5 +9,12 @@
 <symbol id="icon-facebook" viewBox="0 0 13 32">
 <path d="M11.093 1.92c0.32 0 0.64 0 1.28 0v4.8c-0.32 0-0.96 0-1.6 0s-1.28 0-1.6 0.32c-0.32 0.32-0.32 0.64-0.32 1.387 0 0.64 0 1.067 0 1.707h3.52v4.053h-3.52v17.6h-5.44v-17.707h-2.88v-4.053h2.88v-1.387c0-2.347 0.32-4.053 0.96-4.8 0.96-1.387 2.88-2.027 5.76-2.027 0.32 0.107 0.64 0.107 0.96 0.107z"></path>
 </symbol>
+<symbol id="icon-menu" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M4 11.333h24M4 20.667h24"></path>
+</symbol>
+<symbol id="icon-x-close" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
+</symbol>
 </defs>
 </svg>
