@@ -1,0 +1,70 @@
+.contact-us .container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.heading-contact-us {
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 48px 28px;
+  max-width: 335px;
+  max-height: 512px;
+  background: #f3f3f3;
+}
+
+.form-label {
+  max-width: 279px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.contact-input {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding: 12px 136px 12px 14px;
+  max-width: 279px;
+  max-height: 42px;
+}
+
+.textarea-input {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  
+  padding-top: 12px;
+  padding-left: 14px;
+  width: 279px;
+  height: 84px;
+}
+.input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #0c0c0c;
+}
+
+.btn-send {
+  border-radius: 16px;
+  padding: 12px 50px;
+  width: 134px;
+  height: 42px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+}
