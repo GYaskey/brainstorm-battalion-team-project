@@ -123,3 +123,20 @@
   letter-spacing: -0.28px;
   color: rgba(251, 251, 251, 0.5);
 }
+
+.sale-price {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 68px;
+  height: 32px;
+  padding: 8px 12px;
+  color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.32px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.1);
+}
