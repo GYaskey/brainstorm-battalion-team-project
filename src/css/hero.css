@@ -15,6 +15,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+   .hero-main-box {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .hero-main-box {
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,7 +31,6 @@
   .hero-title-box {
     width: 557px;
     height: 260px;
-    margin-bottom: 40px;
   }
 }
 
