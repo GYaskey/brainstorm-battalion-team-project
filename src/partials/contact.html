@@ -25,7 +25,7 @@
                 name="user_email"
                 required
                 placeholder="Email"
-                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
 
               />
               <input
@@ -33,12 +33,15 @@
               id="user_phone"
               type="tel"
               name="user_phone"
+              required
               placeholder="+380"
+              pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
             />
             <textarea
               class="contact-us-textarea-input"
               name="coment-user"
               rows="5"
+              required
               placeholder="Comment"
               maxlength="700"
             ></textarea>
