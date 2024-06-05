@@ -1,6 +1,6 @@
 <section class="hero-section">
   <div class="container">
-    <div class="hero-container">
+    <div class="hero-main-box">
       <div class="hero-title-box">
         <h1 class="hero-title">
           Welcome to our <span class="hero-title_color">collection</span> of
@@ -16,79 +16,100 @@
 
       <div class="hero-image-box">
         <picture>
-
           <source
-          media="(min-width: 1280px)"
-          srcset="../img/hero/portraits@1x.png 1x, ../img/hero/portraits@2x.png 2x"
-          width="146"
-          height="60"
-          type="image/png"
+            media="(min-width: 1280px)"
+            srcset="
+              ../img/hero/portraits@1x.png 1x,
+              ../img/hero/portraits@2x.png 2x
+            "
+            width="146"
+            height="60"
+            type="image/png"
           />
 
           <source
-          media="(min-width: 768px)"
-          srcset="../img/hero/portraits@1x.png 1x, ../img/hero/portraits@2x.png 2x"
-          width="136"
-          height="60"
-          type="image/png"
+            media="(min-width: 768px)"
+            srcset="
+              ../img/hero/portraits@1x.png 1x,
+              ../img/hero/portraits@2x.png 2x
+            "
+            width="136"
+            height="60"
+            type="image/png"
           />
 
           <source
-          media="(min-width: 320px)"
-          srcset="../img/hero/portraits@1x.png 1x, ../img/hero/portraits@2x.png 2x"
-          width="108"
-          height="44"
-          type="image/png"
+            media="(min-width: 320px)"
+            srcset="
+              ../img/hero/portraits@1x.png 1x,
+              ../img/hero/portraits@2x.png 2x
+            "
+            width="108"
+            height="44"
+            type="image/png"
           />
 
           <img
-          class="hero-image-team"
-          src="../img/hero/portraits@1x.png"
-          alt="hero-image"
-          width="108"
-          height="44"
-          loading="lazy"
-        />
+            class="hero-image-team"
+            src="../img/hero/portraits@1x.png"
+            alt="hero-image"
+            width="108"
+            height="44"
+            loading="lazy"
+          />
         </picture>
 
-        <a class="hero-link-down" href="#hero-link_scroll-down" id="hero-link_scroll-down">Scroll down</a>
+        <a
+          class="hero-link-down"
+          href="#hero-link_scroll-down"
+          id="hero-link_scroll-down"
+          >Scroll down</a
+        >
       </div>
-
-      <picture>
-        <source
-          media="(min-width: 1280px)"
-          width="1150"
-          height="500"
-          srcset="../img/hero/hero-pic_desk@1x.jpg 1x, ../img/hero/hero-pic_desk@2x.jpg 2x"
-          type="image/jpg"
-          />
-
-          <source
-          media="(min-width: 768px)"
-          width="704"
-          height="520"
-          srcset="../img/hero/hero-pic_tab@1x.jpg 1x, ../img/hero/hero-pic_tab@2x.jpg 2x"
-          type="image/jpg"
-          />
-
-        <source
-          media="(min-width: 320px)"
-          width="335"
-          height="366"
-          srcset="../img/hero/hero-pic_mob@1x.jpg 1x, ../img/hero/hero-pic_mob@2x.jpg 2x"
-          type="image/jpg"
-          />
-
-      <img 
-      class="hero-main-photo"
-      src="../img/hero/hero-pic_mob@1x.jpg"
-      alt="hero-main-image" 
-      width="335" 
-      height="366" 
-      loading="lazy"
-      />
-      </picture>
-
     </div>
+
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        width="1150"
+        height="500"
+        srcset="
+          ../img/hero/hero-pic_desk@1x.jpg 1x,
+          ../img/hero/hero-pic_desk@2x.jpg 2x
+        "
+        type="image/jpg"
+      />
+
+      <source
+        media="(min-width: 768px)"
+        width="704"
+        height="520"
+        srcset="
+          ../img/hero/hero-pic_tab@1x.jpg 1x,
+          ../img/hero/hero-pic_tab@2x.jpg 2x
+        "
+        type="image/jpg"
+      />
+
+      <source
+        media="(min-width: 320px)"
+        width="335"
+        height="366"
+        srcset="
+          ../img/hero/hero-pic_mob@1x.jpg 1x,
+          ../img/hero/hero-pic_mob@2x.jpg 2x
+        "
+        type="image/jpg"
+      />
+
+      <img
+        class="hero-main-photo"
+        src="../img/hero/hero-pic_mob@1x.jpg"
+        alt="hero-main-image"
+        width="335"
+        height="366"
+        loading="lazy"
+      />
+    </picture>
   </div>
 </section>
