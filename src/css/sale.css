@@ -1,15 +1,15 @@
-.sale .container {
+.sale {
   padding: 30px 0;
 }
 
 @media only screen and (min-width: 768px) {
-  .sale .container {
+  .sale {
     padding: 40px 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .sale .container {
+  .sale {
     padding: 50px 0;
   }
 }
@@ -80,8 +80,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
   background-color: #f3f3f3;
@@ -95,6 +95,7 @@
 
 @media only screen and (min-width: 768px) {
   .sale-list-item {
+    /* padding: 16px 18px; */
     width: 132px;
     height: 132px;
   }
@@ -116,7 +117,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 50px; */
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 100%;
