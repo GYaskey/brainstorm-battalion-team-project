@@ -18,6 +18,13 @@
   flex-direction: column;
 }
 
+@media only screen and (min-width: 1280px) {
+  .contact-us-container-wrapper {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
 .contact-us-container-form {
   display: flex;
   flex-direction: column;
@@ -38,6 +45,14 @@
 @media only screen and (min-width: 768px) {
   .contact-us-form {
     padding: 50px 122px;
+    border-radius: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .contact-us-form {
+    border-radius: 50px;
+    padding: 50px 60px;
+    height: 556px;
   }
 }
 
@@ -86,7 +101,7 @@
   padding-left: 14px;
   width: 100%;
   height: 100%;
-  margin-bottom: 28px;
+  /* margin-bottom: 20px; */
 }
 .contact-us-input:focus,
 .contact-us-textarea-input:focus {
@@ -105,6 +120,7 @@
   text-align: center;
   color: #fbfbfb;
   border: none;
+  margin-top: 28px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -113,8 +129,15 @@
     padding: 17px 63px;
     width: 160px;
     height: 52px;
+    margin-top: 32px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .btn-send {
+    margin-top: 32px;
+  }
+}
+
 
 .contact-us-image {
   margin: 0 auto;
