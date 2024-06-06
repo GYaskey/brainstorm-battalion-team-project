@@ -23,6 +23,8 @@
   flex-direction: column;
 }
 
+/*General form size*/
+
 .contact-us-form {
   display: flex;
   flex-direction: column;
