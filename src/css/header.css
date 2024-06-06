@@ -1,9 +1,9 @@
 .header {
-    position: sticky;
+    position: sticky; 
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 5;
     background-color: #fff;
 
     border-bottom: 1px solid rgba(12, 12, 12, 0.10);
@@ -76,10 +76,6 @@
   }
 }
 
-
-
-
-    
 
 /* region navigation desctop */
 
@@ -185,7 +181,8 @@
     background-size: cover;
     padding-top: 240px;
     padding-bottom: 40px;
-    /* width: 60vw; */
+    width: 60vw;
+    z-index: 50;
 
     display: flex;
     flex-direction: column;
