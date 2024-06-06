@@ -1,24 +1,25 @@
 .review {
-}
-.container {
-}
-.review-container {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 @media only screen and (min-width: 768px) {
-  .review-container {
+  .review {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .review-container {
+  .review {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+
+.container {
+}
+.review-container {
 }
 
 .review-title {
@@ -42,7 +43,7 @@
   display: flex;
 }
 
-@media (max-width: 767.99px) {
+@media (max-width: 767px) {
   .review-list .review-card:nth-child(n + 2) {
     display: none;
   }
@@ -51,7 +52,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1279.99px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   .review-list .review-card:nth-child(n + 3) {
     display: none;
   }
@@ -74,26 +75,26 @@
   padding: 32px 36px;
   border-radius: 30px;
   background: #f3f3f3;
-  width: 335px;
+  max-width: 335px;
 }
 
-@media (min-width: 768px) and (max-width: 1279.99px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   .review-card {
-    width: 344px;
+    max-width: 344px;
   }
 }
 
 @media (min-width: 1280px) {
   .review-card {
-    width: 370px;
+    max-width: 370px;
   }
 }
 
 .review-img {
   margin-bottom: 24px;
   border-radius: 56px;
-  background: lightgray 50% / cover no-repeat, #f3f3f3;
 }
+
 .reviewer-name {
   text-align: center;
   font-size: 16px;
