@@ -173,3 +173,16 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .contact-us-image img {
+    width: 704px;
+    height: 556px;
+  } 
+}
+
+@media only screen and (min-width: 1280px) {
+  .contact-us-image img {
+    width: 530px;
+    height: 556px;
+  }
+}
