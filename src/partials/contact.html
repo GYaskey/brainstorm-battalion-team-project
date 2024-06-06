@@ -1,34 +1,43 @@
 <section class="contact-us" id="contact">
-    <div class="container">
-      <h3 class="contact-us-heading">Contact Us</h3>
-      <form class="contact-us-form">
-        <label class="contact-us-label-text">
-            Please use the form below to contact us. Enter your name, 
-            email, phone, and message and we'll get back to you shortly.
-        </label>
-        <input
-                class="contact-us-input"
-                id="user-name"
-                type="text"
-                name="user_name"
-                required
-               
-                maxlength="40"
-                placeholder="Name"
-                pattern="[A-Za-z0-9]{6,}"
-                
-              />
-              <input
-                class="contact-us-input"
-                id="user_email"
-                type="email"
-                name="user_email"
-                required
-                placeholder="Email"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+  <div class="container">
+    <h2 class="contact-us-heading">Contact Us</h2>
 
-              />
-              <input
+    <!--Wrapper Form + Image-->
+
+    <div class="contact-us-container-wrapper">
+      <!--Container Form-->
+
+      <div class="contact-us-container-form">
+        <form class="contact-us-form">
+          <p class="contact-us-paragraph-text">
+            Please use the form below to contact us. Enter your name, email,
+            phone, and message and we'll get back to you shortly.
+          </p>
+          <label class="contact-us-form-label" for="user_name">
+            <input
+              class="contact-us-input"
+              id="user-name"
+              type="text"
+              name="user_name"
+              required
+              maxlength="40"
+              placeholder="Name"
+              pattern="[A-Za-z0-9]{6,}"
+            />
+          </label>
+          <label class="contact-us-form-label" for="user_email">
+            <input
+              class="contact-us-input"
+              id="user_email"
+              type="email"
+              name="user_email"
+              required
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+          </label>
+          <label class="contact-us-form-label" for="user_phone">
+            <input
               class="contact-us-input"
               id="user_phone"
               type="tel"
@@ -37,44 +46,57 @@
               placeholder="+380"
               pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
             />
+          </label>
+          <label class="contact-us-form-label" for="comment-user">
             <textarea
               class="contact-us-textarea-input"
-              name="coment-user"
+              name="comment-user"
               rows="5"
               required
               placeholder="Comment"
               maxlength="700"
             ></textarea>
-            <button class="btn-send" type="submit">
-                Send
-            </button>
-      </form>
-  
-      <picture class="contact-us-image">
-        <source
-          media="(max-width: 767px)"
-          srcset="./img/contact/contact_mob@1x.jpg 1x, ./img/contact/contact_mob@2x.jpg 2x"
-          type="image/png"
-        />
-        <source
-          media="(min-width: 768px)"
-          srcset="./img/contact/contact_tab@1x.jpg 1x, ./img/contact/contact_tab@2x.jpg 2x"
-          type="image/png"
-        />
-        <source
-          media="(min-width: 1128px)"
-          srcset="./img/contact/contact_desk@1x.jpg 1x, ./img/contact/contact_desk@2x.jpg 2x"
-          type="image/png"
-        />
-  
-        <img
-          src="./img/contact/contact_mob@1x.jpg"
-          alt="face_Mark_Guerrero"
-          width="315"
-          height="512"
-          loading="lazy"
-        />
-      </picture>
-    </div>
-  </section>
+          </label>
+          <button class="btn-send" type="submit" aria-label="Button Send">Send</button>
+        </form>
+      </div>
 
+      <!--Container Image-->
+
+      <div class="contact-us-container-image">
+        <picture class="contact-us-image">
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/contact/contact_desk@1x.jpg 1x,
+              ./img/contact/contact_desk@2x.jpg 2x
+            "
+          />
+
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/contact/contact_tab@1x.jpg 1x,
+              ./img/contact/contact_tab@2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/contact/contact_mob@1x.jpg 1x,
+              ./img/contact/contact_mob@2x.jpg 2x
+            "
+          />
+
+          <img
+            src="./img/contact/contact_mob@1x.jpg"
+            alt="Watch"
+             width="" 
+            height="" 
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>

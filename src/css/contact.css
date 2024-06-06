@@ -1,11 +1,10 @@
-.contact-us .container {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+.contact-us {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .contact-us-heading {
-  text-align: left;
+  align-self: flex-start;
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -14,19 +13,33 @@
   margin-bottom: 24px;
 }
 
+.contact-us-container-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-container-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-us-form {
   display: flex;
   flex-direction: column;
   border-radius: 30px;
   padding: 48px 28px;
-  max-width: 335px;
-  
   max-height: 100%;
   background: #f3f3f3;
   margin-bottom: 20px;
 }
 
-.contact-us-label-text {
+@media only screen and (min-width: 768px) {
+  .contact-us-form {
+    padding: 50px 122px;
+  }
+}
+
+.contact-us-paragraph-text {
   max-width: 279px;
   font-weight: 500;
   font-size: 14px;
@@ -34,16 +47,30 @@
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   margin-bottom: 28px;
+  align-self: flex-start;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-us-paragraph-text {
+    max-width: 460px;
+    align-self: center;
+  }
 }
 
 .contact-us-input {
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
   padding: 12px 136px 12px 14px;
-  max-width: 279px;
+  width: 100%;
   max-height: 42px;
   outline: transparent;
   margin-bottom: 18px;
+}
+@media only screen and (min-width: 768px) {
+  .contact-us-input {
+    width: 100%;
+    align-self: center;
+  }
 }
 
 .contact-us-textarea-input {
@@ -52,13 +79,13 @@
   outline: transparent;
   padding-top: 12px;
   padding-left: 14px;
-  width: 279px;
-  height: 84px;
+  width: 100%;
+  height: 100%;
   margin-bottom: 28px;
 }
 .contact-us-input:focus,
 .contact-us-textarea-input:focus {
-  border: 1px solid #3350E9;
+  border: 1px solid #3350e9;
 }
 
 .btn-send {
@@ -75,8 +102,16 @@
   border: none;
 }
 
-.contact-us-image {
-  margin: 0 auto;
-  max-width: 335px;
+@media only screen and (min-width: 768px) {
+  .btn-send {
+    border-radius: 16px;
+    padding: 17px 63px;
+    width: 160px;
+    height: 52px;
+  }
 }
 
+.contact-us-image {
+  margin: 0 auto;
+  max-width: 100%;
+}
