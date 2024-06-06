@@ -11,7 +11,7 @@
 }
 
 @media only screen and (min-width: 1120px) {
-   .hero-section {
+  .hero-section {
     padding-bottom: 50px;
   }
 }
@@ -22,7 +22,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-   .hero-main-box {
+  .hero-main-box {
     margin-bottom: 40px;
   }
 }
@@ -130,7 +130,7 @@
 
 .hero-link-down:hover,
 .hero-link-down:focus {
-  color: #3350E9;
+  color: #3350e9;
 }
 
 .hero-main-photo {
@@ -138,7 +138,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-   .hero-main-photo {
+  .hero-main-photo {
     border-radius: 50px;
   }
 }
