@@ -133,3 +133,13 @@
     line-height: 1;
   }
 }
+
+.hero-main-photo {
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+   .hero-main-photo {
+    border-radius: 50px;
+  }
+}
