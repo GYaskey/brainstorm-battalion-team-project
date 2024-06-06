@@ -1,53 +1,55 @@
-<div class="container">
-  <div class="about-section">
-    <div class="about-text-container">
-      <div class="about-text-box">
-        <h2 class="about-title">About Us</h2>
-        <p class="about-descr">
-          Welcome to our premium watch collection, where luxury and style meet
-          functionality and precision. Our selection of timepieces embodies the
-          very best in Swiss craftsmanship and engineering, ensuring that you'll
-          always have a reliable and stylish accessory on your wrist.
-        </p>
-        <p class="about-descr">
-          At our premium watch collection, we believe that a watch is more than
-          just a timekeeping device – it's a statement piece that reflects your
-          personality and style. So why settle for anything less than the best?
-        </p>
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-container">
+      <div class="about-text-container">
+        <div class="about-text-box">
+          <h2 class="about-title">About Us</h2>
+          <p class="about-descr">
+            Welcome to our premium watch collection, where luxury and style meet
+            functionality and precision. Our selection of timepieces embodies
+            the very best in Swiss craftsmanship and engineering, ensuring that
+            you'll always have a reliable and stylish accessory on your wrist.
+          </p>
+          <p class="about-descr">
+            At our premium watch collection, we believe that a watch is more
+            than just a timekeeping device – it's a statement piece that
+            reflects your personality and style. So why settle for anything less
+            than the best?
+          </p>
+        </div>
+        <div class="about-btn-box">
+          <a class="about-link" href="#catalog">View catalog</a>
+        </div>
       </div>
-      <button class="about-btn" type="button">
-        <a href="#catalog"></a>
-        View catalog
-      </button>
+      <picture class="about-img-box">
+        <source
+          srcset="
+            ./img/about/about_desk@1x.jpg 1x,
+            ./img/about/about_desk@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/about/about_tab@1x.jpg 1x,
+            ./img/about/about_tab@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/about/about_mob@1x.jpg 1x,
+            ./img/about/about_mob@2x.jpg 2x
+          "
+        />
+        <img
+          src="./img/about/about_mob@1x.jpg"
+          srcset="./img/about/about_mob@2x.jpg 2x"
+          alt="black
+          watch"
+          loading="lazy"
+        />
+      </picture>
     </div>
-    <picture class="about-img-box">
-      <source
-        srcset="
-          ./img/about/about_desk@1x.jpg 1x,
-          ./img/about/about_desk@2x.jpg 2x
-        "
-        media="(min-width: 1280px)"
-      />
-      <source
-        srcset="
-          ./img/about/about_tab@1x.jpg 1x,
-          ./img/about/about_tab@2x.jpg 2x
-        "
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="
-          ./img/about/about_mob@1x.jpg 1x,
-          ./img/about/about_mob@2x.jpg 2x
-        "
-      />
-      <img
-        src="./img/about/about_mob@1x.jpg"
-        srcset="./img/about/about_mob@2x.jpg 2x"
-        alt="black
-        watch"
-        loading="lazy"
-      />
-    </picture>
   </div>
-</div>
+</section>
