@@ -5,25 +5,20 @@
   padding: 40px 28px 28px 28px;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   min-width: 320px;
-  width: 100%;
-  /* max-width: 335px; */
-}
-@media only screen and (min-width: 768px) {
-  .footer-container {
-    padding: 40px 40px 28px 40px;
-    font-size: 14px;
-    line-height: 1.28; /* 128.571% */
-  }
-}
-@media only screen and (min-width: 1280px) {
+  width: 355px;
 }
 .footer-logo-link {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+}
+.footer-logo {
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: -0.32px;
 }
 .footer-socials-list {
   display: flex;
@@ -76,7 +71,6 @@
   column-gap: 16px;
   flex-wrap: wrap;
 }
-
 .footer-nav-container {
   display: flex;
   align-items: flex-start;
