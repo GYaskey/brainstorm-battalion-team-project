@@ -3,6 +3,20 @@
   padding-bottom: 30px;
 }
 
+@media only screen and (min-width: 768px) {
+  .contact-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contact-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 .contact-us-heading {
   align-self: flex-start;
   font-weight: 600;
@@ -139,6 +153,11 @@
   margin-top: 28px;
 }
 
+.btn-send:focus,
+.btn-send:hover {
+  background: #1f3cd4;
+}
+
 @media only screen and (min-width: 768px) {
   .btn-send {
     border-radius: 16px;
@@ -154,8 +173,3 @@
   }
 }
 
-
-.contact-us-image {
-  margin: 0 auto;
-  max-width: 100%;
-}
