@@ -11,12 +11,15 @@
 .header .container {
     display: flex;
     align-items: center;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
 .header .container {
-    padding: 20px 0;
+    padding-top: 26px;
+    padding-bottom: 26px;
+
   }
 }
 
@@ -71,7 +74,6 @@
   }
 }
 
-
 @media only screen and (min-width: 1280px) {
 .btn_menu_header {
     display: none;
@@ -79,9 +81,8 @@
 }
 
 
+
 /* region navigation desctop */
-
-
 .nav-header-list-desc {
     display: flex;
     align-items: center;
@@ -116,10 +117,7 @@
 
     left: 40%;
     right: 0;
-
 } 
-
-
 
 .socials-header-desc {
     display: flex;
@@ -202,7 +200,6 @@
     top: 0;
     right: 0;
 
-
     width: 200px;
     height: 100%;
 
@@ -258,14 +255,11 @@
   }
 }
 
-
 @media only screen and (min-width: 1280px) {
 .backdrop {
     display: none;
   }
 }
-
-
 
 .btn-close-header-menu {
     position: absolute;
@@ -303,8 +297,6 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    
-
 }
 
 .nav-header-list :not(:last-child) {
