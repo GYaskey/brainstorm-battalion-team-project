@@ -21,7 +21,6 @@
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  height: 363px;
   border-radius: 30px;
   padding: 60px 28px;
   background: #0c0c0c;
@@ -38,7 +37,6 @@
 
 @media only screen and (min-width: 768px) {
   .adv-box {
-    height: 425px;
     background-image: url(../img/advertisement/adv_tab@1x.png);
     padding: 80px 64px;
   }
@@ -52,7 +50,6 @@
 
 @media only screen and (min-width: 1280px) {
   .adv-box {
-    height: 298px;
     justify-content: space-between;
     background-image: url(../img/advertisement/adv_desk@1x.png);
     flex-direction: row;
@@ -72,6 +69,7 @@
 }
 
 .adv-text {
+  height: 167px;
   color: #fbfbfb;
   font-size: 32px;
   font-weight: 600;
@@ -82,6 +80,7 @@
 
 @media only screen and (min-width: 768px) {
   .adv-text {
+    height: 185px;
     font-size: 48px;
     font-weight: 600;
     line-height: 44px;
@@ -92,24 +91,31 @@
 
 @media only screen and (min-width: 1280px) {
   .adv-text {
+    height: 100%;
     width: 690px;
+    margin-bottom: 0;
   }
 }
 
-.adv-btn {
+.adv-link-box {
   width: 160px;
   height: 48px;
   background-color: transparent;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  padding: 12px 0;
+}
+
+.adv-link-box > a {
   color: #fbfbfb;
   text-align: center;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px; /* 128.571% */
-  border-radius: 16px;
-  border: 1px solid rgba(251, 251, 251, 0.15);
 }
 
-.adv-visually-hidden {
+.adv-title {
   position: absolute;
   width: 1px;
   height: 1px;
