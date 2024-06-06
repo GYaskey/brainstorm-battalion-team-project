@@ -1,11 +1,10 @@
-const menu = document.getElementById('menu');
+const backdrop = document.getElementById('backdrop');
 const openButton = document.getElementById('openButton');
 const closeButton = document.getElementById('closeButton');
 
 openButton.addEventListener('click', () => {
-    menu.classList.add('is-open');
+    backdrop.classList.add('is-open');
 });
 
 closeButton.addEventListener('click', () => {
-    menu.classList.remove('is-open');
-});
+    backdrop.classList.remove('is-open');
