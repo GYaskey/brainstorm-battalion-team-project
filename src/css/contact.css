@@ -100,7 +100,10 @@
   }
 }
   
-::placeholder {
+
+
+.contact-us-input::placeholder,
+.contact-us-textarea-input::placeholder {
   color: #0C0C0C;
 }
 
