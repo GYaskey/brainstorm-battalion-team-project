@@ -16,8 +16,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    margin-bottom: 40px;
+    row-gap: 20px;
+    padding-bottom: 40px;
 }
 
 .catalog-items {
@@ -60,7 +60,7 @@ width: 100%;
 .catalog-button {
     width: 160px;
     height: 48px;
-    border: 1px;
+    border: none;
     border-radius: 16px;
     background: #3350E9;
     color: #FBFBFB;
@@ -94,22 +94,24 @@ background-color: #1F3CD4;
         margin-bottom: 40px;
         }
     .catalog-list {
-        display: flex;
+
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 16px;
+
+        column-gap: 16px;
         row-gap: 32px;
-        margin-bottom: 40px;
+        padding-bottom: 0;
+
         }
     .catalog-items {
-            padding: 24px 38px;
+
+            padding: 24px 32px;
             width: 344px;
         }
 
     .catalog-container {
         padding: 10px 6px;
-        margin-bottom: 10px;
+
 }
     .catalog-watch-name {
         font-size: 20px;
@@ -141,12 +143,11 @@ background-color: #1F3CD4;
     }
 
     .catalog-list {
-        gap: 23px;
+        column-gap: 23px;
         row-gap: 56px;
         }
 
     .catalog-items {
-        padding: 24px 32px;
         width: 368px;
         }
 
@@ -156,12 +157,6 @@ background-color: #1F3CD4;
         }
 
     .catalog-watch-name {
-        font-size: 20px;
-        letter-spacing: -0.4px;
         width: 304px;
-        }
-    .catalog-warch-price {
-        font-size: 14px;
-        letter-spacing: -0.28px;
         }
 }
