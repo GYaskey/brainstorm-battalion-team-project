@@ -1,4 +1,4 @@
-const menu = document.getElementById('backdrop');
+const backdrop = document.getElementById('backdrop');
 const openButton = document.getElementById('openButton');
 const closeButton = document.getElementById('closeButton');
 
