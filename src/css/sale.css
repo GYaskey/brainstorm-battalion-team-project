@@ -87,13 +87,15 @@
 
 @media only screen and (max-width: 767px) {
   .sale-list-item {
-    padding: 13px 14px;
+    /* padding: 13px 14px; */
+    width: calc((100% - 15px) / 4);
+    height: 80px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .sale-list-item {
-    padding: 16px 18px;
+    /* padding: 16px 18px; */
     border-radius: 20px;
     width: 132px;
     height: 132px;
@@ -112,7 +114,9 @@
 
 @media only screen and (max-width: 767px) {
   .sale-main-watch {
-    padding: 50px;
+    max-width: 335px;
+    min-height: 385px;
+    /* padding: 50px; */
   }
 }
 
@@ -126,7 +130,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .sale-desc {
