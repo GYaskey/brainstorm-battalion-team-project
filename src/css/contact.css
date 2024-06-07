@@ -193,3 +193,19 @@
     margin-top: 32px;
   }
 }
+
+.contact-us-image img {
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 768px)  {
+  .contact-us-image img {
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contact-us-image img {
+    border-radius: 50px;
+  }
+}
