@@ -4,7 +4,6 @@
     left: 0;
     width: 100%;
     z-index: 5;
-    background-color: #fff;
 
     border-bottom: 1px solid rgba(12, 12, 12, 0.10);
 }
@@ -181,23 +180,20 @@
     opacity: 0;
     visibility: hidden;
 
-    z-index: 555;
+    z-index: 555;  
 
     transform: translateX(0);
-
-    transform: translatex(0);
-    transition-property: transform;
-    transition-duration: 2000ms;
-/* 
-    transition: transform 500ms ease-in-out,
-    opacity 500ms ease-in-out,
-    visibility 500ms ease-in-out;    */
+    transition: transform 250ms cubic-bezier(.4,0,.2,1);
 }
 
 .backdrop.is-open {
     visibility: visible;
     pointer-events: auto;
     opacity: 1;
+    right: 0;
+
+    transform: translateX(0);
+    transition: transform 250ms cubic-bezier(.4,0,.2,1);
 }
 
 .menu_header { 
@@ -224,13 +220,10 @@
     align-items: center;
     justify-content: center;
 
-    transform: translatex(0);
-    transition-property: transform;
-    transition-duration: 2000ms;
-
-    /* transform: translateX(0);
-    transition: transform 500ms ease-in-out; */
+    transform: translateX(0);
+    transition: transform 250ms cubic-bezier(.4,0,.2,1);
 }
+
 
 @media (min-resolution: 192dpi) {
 .menu_header {
