@@ -38,6 +38,10 @@
   padding: 8px;
   /* margin-bottom: 20px; */
 }
+.footer-socials {
+  width: 34px;
+  height: 34px;
+}
 .footer-phone-number {
   display: flex;
   color: #fbfbfb;
