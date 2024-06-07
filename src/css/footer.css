@@ -27,6 +27,7 @@
 .footer-socials-list {
   display: flex;
   gap: 10px;
+  margin-bottom: 20px;
 }
 .footer-social-icon {
   fill: #fbfbfb;
@@ -35,7 +36,7 @@
   width: 34px;
   height: 34px;
   padding: 8px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .footer-phone-number {
   display: flex;
@@ -112,5 +113,6 @@
   border: 1px solid rgba(251, 251, 251, 0.1);
   position: absolute;
   bottom: -24px;
-  width: 279px;
+  /* width: 279px; */
+  width: 100%;
 }
