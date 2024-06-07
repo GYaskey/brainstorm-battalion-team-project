@@ -1,0 +1,162 @@
+.catalog {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.catalog-title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.64px;
+    margin-bottom: 24px;
+}
+
+.catalog-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    padding-bottom: 40px;
+}
+
+.catalog-items {
+    border-radius: 30px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    background: #F3F3F3;
+    padding: 24px 28px;
+}
+
+.catalog-container {
+    padding: 18px 36px 18px 35px;
+    margin-bottom: 10px;
+}
+
+.catalog-img {
+width: 100%;
+}
+
+.catalog-watch-name {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-bottom: 8px;
+}
+
+.catalog-warch-price {
+    color: rgba(12, 12, 12, 0.50);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+
+.catalog-button {
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 16px;
+    background: #3350E9;
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 87.5px;
+    margin-left: 87.5px;
+    /* cursor: pointer;
+    transition: background-color 0.3 ease; */
+}
+/* .catalog-button:hover,
+.catalog-button:focus {
+background-color: #1F3CD4;
+} */
+.catalog-hidden {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .catalog {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        }
+    .catalog-title {
+        font-size: 48px;
+        line-height: 44px;
+        letter-spacing: -0.96px;
+        margin-bottom: 40px;
+        }
+    .catalog-list {
+
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        column-gap: 16px;
+        row-gap: 32px;
+        padding-bottom: 0;
+
+        }
+    .catalog-items {
+
+            padding: 24px 32px;
+            width: 344px;
+        }
+
+    .catalog-container {
+        padding: 10px 6px;
+
+}
+    .catalog-watch-name {
+        font-size: 20px;
+        letter-spacing: -0.4px;
+        width: 280px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+    .catalog-warch-price {
+        font-size: 14px;
+        letter-spacing: -0.28px;
+        }
+    .catalog-button {
+        display: none;
+        }
+
+    
+    .catalog-hidden {
+        display: flex;
+        flex-direction: column;
+}
+        
+}
+
+@media only screen and (min-width: 1280px) {
+    .catalog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .catalog-list {
+        column-gap: 23px;
+        row-gap: 56px;
+        }
+
+    .catalog-items {
+        width: 368px;
+        }
+
+    .catalog-container {
+         padding: 6px 6px 6px 14px;
+         margin-bottom: 10px;
+        }
+
+    .catalog-watch-name {
+        width: 304px;
+        }
+}

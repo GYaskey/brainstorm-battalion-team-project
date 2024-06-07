@@ -1,0 +1,149 @@
+.about-section {
+  padding: 30px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-section {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-section {
+    padding: 50px 0;
+  }
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-container {
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-container {
+    flex-direction: row;
+  }
+}
+
+.about-text-container {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  background: #f3f3f3;
+  padding: 40px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-text-container {
+    border-radius: 50px;
+    padding: 80px 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-text-container {
+    width: 580px;
+  }
+}
+
+.about-text-box {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .about-text-box {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-text-box {
+    width: 460px;
+    margin-bottom: 40px;
+  }
+}
+
+.about-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.64px;
+  color: #0c0c0c;
+  margin-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-title {
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
+  }
+}
+
+.about-descr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-descr {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
+}
+
+.about-btn-box {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 48px;
+}
+
+.about-link {
+  width: 100%;
+  height: 100%;
+  border-color: transparent;
+  border-radius: 16px;
+  padding: 15px 37px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.about-link:hover,
+.about-link:focus {
+  background-color: #1f3cd4;
+}
+
+.about-img-box {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 30px;
+  background: rgba(12, 12, 12, 0.2);
+}
+
+@media only screen and (min-width: 768px) {
+  .about-img-box {
+    border-radius: 50px;
+  }
+}
