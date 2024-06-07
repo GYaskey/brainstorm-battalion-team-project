@@ -94,7 +94,6 @@
 
 @media only screen and (min-width: 768px) {
   .sale-list-item {
-    /* padding: 16px 18px; */
     border-radius: 20px;
     width: 132px;
     height: 132px;
@@ -115,7 +114,12 @@
   .sale-main-watch {
     max-width: 335px;
     min-height: 385px;
-    /* padding: 50px; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-main-watch {
+    border-radius: 50px;
   }
 }
 
@@ -141,6 +145,7 @@
 @media only screen and (min-width: 768px) {
   .sale-desc {
     padding: 60px;
+    border-radius: 50px;
   }
 }
 
