@@ -27,6 +27,13 @@
   margin-bottom: 24px;
 }
 
+@media only screen and (min-width: 768px), (min-width: 1280px) {
+  .contact-us-heading {
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
+  }
+}
 /*Wrapper*/
 
 .contact-us-container-wrapper {
@@ -111,21 +118,21 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
-  color: #0C0C0C;
+  color: #0c0c0c;
 }
 
 @media only screen and (min-width: 768px) {
   .contact-us-input::placeholder,
-.contact-us-textarea-input::placeholder {
-  font-size: 16px;
-}
+  .contact-us-textarea-input::placeholder {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
   .contact-us-input::placeholder,
-.contact-us-textarea-input::placeholder {
-  font-size: 16px;
-}
+  .contact-us-textarea-input::placeholder {
+    font-size: 16px;
+  }
 }
 
 .contact-us-input {
