@@ -3,6 +3,15 @@
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
+  padding-bottom: 32px;
+}
+@media only screen and (min-width: 1280px) {
+  .footer-container {
+    position: relative;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 50px;
+  }
 }
 .footer-content {
   padding: 40px 28px 28px 28px;
@@ -42,13 +51,17 @@
   }
 }
 .footer-social-icon {
-  fill: #fbfbfb;
+  fill: rgba(251, 251, 251, 0.8);
   border-radius: 10px;
   border: 1px solid rgba(251, 251, 251, 0.1);
   width: 34px;
   height: 34px;
   padding: 8px;
-  /* margin-bottom: 20px; */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+  fill: #fbfbfb;
 }
 .footer-socials {
   width: 34px;
@@ -73,7 +86,7 @@
 }
 @media only screen and (min-width: 768px) {
   .footer-phone-number {
-    max-width: 160px;
+    min-width: 160px;
     height: 48px;
     font-size: 14px;
     line-height: 1.28; /* 128.571% */
@@ -92,6 +105,7 @@
   margin-right: auto;
   margin-bottom: 92px;
 }
+
 @media only screen and (min-width: 768px) {
   .footer-large-text {
     font-size: 28px;
@@ -99,6 +113,13 @@
     letter-spacing: -0.56px;
     max-width: 524px;
     margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-large-text {
+    position: absolute;
+    top: 90px;
+    right: 367px;
   }
 }
 .footer-nav-list {
@@ -120,6 +141,12 @@
     text-align: center;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .footer-nav-list {
+    gap: 40px;
+    width: 505px;
+  }
+}
 .footer-nav-container {
   display: flex;
   align-items: flex-start;
@@ -139,6 +166,11 @@
     line-height: 18px;
     gap: 62px;
     margin-bottom: 56px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-nav-container {
+    justify-content: space-between;
   }
 }
 .footer-adress {
@@ -176,6 +208,12 @@
     margin-right: 159px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .footer-down-content > p {
+    margin-right: 671px;
+    margin-bottom: 0;
+  }
+}
 .confidential-link {
   margin-right: 20px;
 }
@@ -197,5 +235,12 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 86px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 126px;
   }
 }
