@@ -23,6 +23,7 @@
               maxlength="40"
               placeholder="Name"
               pattern="[A-Za-z0-9]{6,}"
+              aria-label="Write your name"
             />
           </label>
           <label class="contact-us-form-label" for="user_email">
@@ -34,6 +35,7 @@
               required
               placeholder="Email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              aria-label="Write your email"
             />
           </label>
           <label class="contact-us-form-label" for="user_phone">
@@ -44,7 +46,9 @@
               name="user_phone"
               required
               placeholder="+380"
-              pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              required pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              aria-label="Input field telephon"
+              title=" +380-XX-XXX-XX-XX"
             />
           </label>
           <label class="contact-us-form-label" for="comment-user">
@@ -55,6 +59,7 @@
               required
               placeholder="Comment"
               maxlength="700"
+              aria-label="Write your comment"
             ></textarea>
           </label>
           <button class="btn-send" type="submit" aria-label="Button Send">Send</button>
