@@ -8,6 +8,9 @@
 @media only screen and (min-width: 1280px) {
   .footer-container {
     position: relative;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 50px;
   }
 }
 .footer-content {
@@ -115,7 +118,7 @@
 @media only screen and (min-width: 1280px) {
   .footer-large-text {
     position: absolute;
-    top: 40px;
+    top: 90px;
     right: 367px;
   }
 }
@@ -207,7 +210,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .footer-down-content > p {
-    margin-right: 600px;
+    margin-right: 671px;
     margin-bottom: 0;
   }
 }
