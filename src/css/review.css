@@ -52,7 +52,7 @@
     display: none;
   }
   .review-list {
-    column-gap: 20px;
+    column-gap: 16px;
   }
 }
 
