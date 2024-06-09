@@ -65,7 +65,8 @@ body {
   font-family: 'Gilroy', sans-serif;
   background-color: #fbfbfb;
   color: #0c0c0c;
-  padding-top: 74px;
+}
+/* padding-top: 74px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -78,7 +79,7 @@ body {
   body {
     padding-top: 88px;
   }
-}
+} */
 
 .container {
   max-width: 375px;
