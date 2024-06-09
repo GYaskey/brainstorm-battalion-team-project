@@ -65,8 +65,7 @@ body {
   font-family: 'Gilroy', sans-serif;
   background-color: #fbfbfb;
   color: #0c0c0c;
-}
-/* padding-top: 74px;
+  padding-top: 74px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -79,7 +78,7 @@ body {
   body {
     padding-top: 88px;
   }
-} */
+}
 
 .container {
   max-width: 375px;
@@ -103,6 +102,19 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 74px;
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    scroll-padding-top: 92px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  html {
+    scroll-padding-top: 88px;
+  }
 }
 
 h1 {

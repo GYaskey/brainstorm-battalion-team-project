@@ -6,7 +6,21 @@
   z-index: 50;
   background: #fbfbfb;
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  margin-top: -74px;
 }
+
+@media only screen and (min-width: 768px) {
+  .header {
+    margin-top: -92px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header {
+    margin-top: -88px;
+  }
+}
+
 .header .container {
   display: flex;
   align-items: center;
