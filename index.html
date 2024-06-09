@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/brainstorm-battalion-team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/brainstorm-battalion-team-project/assets/index-fb5ec496.css">
+    <link rel="stylesheet" href="/brainstorm-battalion-team-project/assets/index-0bd7c374.css">
   </head>
   <body>
     <header class="header">
@@ -683,19 +683,20 @@ closeButton.addEventListener('click', () => {
             Please use the form below to contact us. Enter your name, email,
             phone, and message and we'll get back to you shortly.
           </p>
-          <label class="contact-us-form-label" for="user_name">
+          <label class="contact-us-form-label" for="user_name"></label>
             <input
               class="contact-us-input"
-              id="user-name"
+              id="user_name"
               type="text"
               name="user_name"
               required
               maxlength="40"
               placeholder="Name"
               pattern="[A-Za-z0-9]{6,}"
+              aria-label="Write your name"
             />
-          </label>
-          <label class="contact-us-form-label" for="user_email">
+          
+          <label class="contact-us-form-label" for="user_email"></label>
             <input
               class="contact-us-input"
               id="user_email"
@@ -704,9 +705,10 @@ closeButton.addEventListener('click', () => {
               required
               placeholder="Email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              aria-label="Write your email"
             />
-          </label>
-          <label class="contact-us-form-label" for="user_phone">
+          
+          <label class="contact-us-form-label" for="user_phone"></label>
             <input
               class="contact-us-input"
               id="user_phone"
@@ -714,19 +716,22 @@ closeButton.addEventListener('click', () => {
               name="user_phone"
               required
               placeholder="+380"
-              pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              required pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              aria-label="Input field telephon"
+              title=" +380-XX-XXX-XX-XX"
             />
-          </label>
-          <label class="contact-us-form-label" for="comment-user">
+          
+          <label class="contact-us-form-label" for="comment_user"></label>
             <textarea
               class="contact-us-textarea-input"
-              name="comment-user"
-              
+              name="comment_user"
+              id="comment_user"
               required
               placeholder="Comment"
               maxlength="700"
+              aria-label="Write your comment"
             ></textarea>
-          </label>
+          
           <button class="btn-send" type="submit" aria-label="Button Send">Send</button>
         </form>
       </div>
