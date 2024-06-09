@@ -5,10 +5,10 @@
 
 .catalog-title {
     font-size: 32px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 600;
     line-height: 32px;
-    letter-spacing: -0.64px;
+    letter-spacing: -0.02em; 
     margin-bottom: 24px;
 }
 
@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 20px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .catalog-items {
@@ -39,25 +39,26 @@ width: 100%;
 .catalog-watch-name {
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-family: Gilroy;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: -0.32px;
+    letter-spacing: -0.02em;
     margin-bottom: 8px;
+            overflow: hidden;
+                text-overflow: ellipsis;
 }
 
 .catalog-warch-price {
     color: rgba(12, 12, 12, 0.50);
-    font-family: Gilroy;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: -0.28px;
+    letter-spacing: -0.02em;
 }
 
 .catalog-button {
+    display: block;
     width: 160px;
     height: 48px;
     border: none;
@@ -69,15 +70,11 @@ width: 100%;
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
-    margin-right: 87.5px;
-    margin-left: 87.5px;
+    margin-right: auto;
+    margin-left: auto;
     /* cursor: pointer;
     transition: background-color 0.3 ease; */
 }
-/* .catalog-button:hover,
-.catalog-button:focus {
-background-color: #1F3CD4;
-} */
 .catalog-hidden {
     display: none;
 }
@@ -90,7 +87,6 @@ background-color: #1F3CD4;
     .catalog-title {
         font-size: 48px;
         line-height: 44px;
-        letter-spacing: -0.96px;
         margin-bottom: 40px;
         }
     .catalog-list {
@@ -115,15 +111,10 @@ background-color: #1F3CD4;
 }
     .catalog-watch-name {
         font-size: 20px;
-        letter-spacing: -0.4px;
+        letter-spacing: -0.02em;
         width: 280px;
-        overflow: hidden;
-        text-overflow: ellipsis;
         }
-    .catalog-warch-price {
-        font-size: 14px;
-        letter-spacing: -0.28px;
-        }
+        
     .catalog-button {
         display: none;
         }
