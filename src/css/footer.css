@@ -149,6 +149,7 @@
     align-items: flex-end;
     gap: 19px;
     text-align: center;
+    white-space: nowrap;
   }
 }
 @media only screen and (min-width: 1280px) {
