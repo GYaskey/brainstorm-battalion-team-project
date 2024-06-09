@@ -98,6 +98,7 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 @media only screen and (min-width: 768px) {
