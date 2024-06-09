@@ -4,6 +4,12 @@
   font-weight: 500;
   font-size: 12px;
   padding-bottom: 32px;
+  padding-top: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-container {
+    padding-top: 40px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .footer-container {
@@ -33,12 +39,11 @@
 .footer-logo {
   font-size: 16px;
   line-height: normal;
-  letter-spacing: -0.32px;
+  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
   .footer-logo {
     font-size: 20px;
-    letter-spacing: -0.4px;
   }
 }
 .footer-socials-list {
@@ -73,8 +78,8 @@
   text-align: center;
   justify-content: center;
   font-size: 12px;
-  font-style: normal;
   line-height: 1.33;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   border-radius: 16px;
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -103,10 +108,9 @@
   max-width: 279px;
   text-align: center;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.2;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.02em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 92px;
@@ -116,7 +120,6 @@
   .footer-large-text {
     font-size: 28px;
     line-height: 1.14; /* 114.286% */
-    letter-spacing: -0.56px;
     max-width: 524px;
     margin-bottom: 100px;
   }
@@ -161,16 +164,16 @@
   /* font-style */
   text-align: center;
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.33;
+  letter-spacing: 0.02em;
   margin-bottom: 48px;
   position: relative;
 }
 @media only screen and (min-width: 768px) {
   .footer-nav-container {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.28;
     gap: 62px;
     margin-bottom: 56px;
   }
@@ -202,7 +205,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.4;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
   .footer-down-content {
@@ -210,7 +213,6 @@
     align-items: flex-start;
     font-size: 14px;
     line-height: 1.28; /* 128.571% */
-    letter-spacing: -0.28px;
   }
 }
 .footer-down-content > p {
