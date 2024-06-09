@@ -72,29 +72,26 @@
 }
 
 .adv-text {
-  height: 167px;
   color: #fbfbfb;
   font-size: 32px;
   font-weight: 600;
-  line-height: 32px;
-  letter-spacing: -0.64px;
+  line-height: 1;
+  letter-spacing: -0.02em;
   margin-bottom: 28px;
 }
 
 @media only screen and (min-width: 768px) {
   .adv-text {
-    height: 185px;
     font-size: 48px;
     font-weight: 600;
-    line-height: 44px;
-    letter-spacing: -0.96px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
     margin-bottom: 32px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .adv-text {
-    height: 100%;
     width: 690px;
     margin-bottom: 0;
   }

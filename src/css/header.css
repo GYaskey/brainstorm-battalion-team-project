@@ -35,19 +35,17 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: -0.32px;
+  letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
   .logo-header {
     max-width: 112px;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .logo-header {
     margin-right: 203px;
-
-    font-size: 20px;
-    letter-spacing: -0.4px;
   }
 }
 .btn_menu_header {
@@ -182,7 +180,6 @@
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
-  /* */
 
   z-index: 555;
 
