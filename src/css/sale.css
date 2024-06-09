@@ -1,0 +1,274 @@
+.sale {
+  padding: 30px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sale {
+    padding: 50px 0;
+  }
+}
+
+.sale-title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.91;
+    letter-spacing: -0.02em;
+  }
+}
+
+.sale-pictures {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-pictures {
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sale-pictures {
+    flex-direction: row;
+  }
+}
+
+.sale-picture {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-picture {
+    flex-direction: row;
+  }
+}
+
+.sale-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.sale-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  background-color: #f3f3f3;
+}
+
+@media only screen and (max-width: 767px) {
+  .sale-list-item {
+    width: calc((100% - 15px) / 4);
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-list-item {
+    border-radius: 20px;
+    width: 132px;
+    height: 132px;
+  }
+}
+
+.sale-main-watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+@media only screen and (max-width: 767px) {
+  .sale-main-watch {
+    max-width: 335px;
+    min-height: 385px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-main-watch {
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sale-main-watch {
+    min-width: 428px;
+  }
+}
+
+.sale-list-watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.sale-desc {
+  padding: 48px 28px;
+  border-radius: 30px;
+  background-color: #3350e9;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-desc {
+    padding: 60px;
+    border-radius: 50px;
+  }
+}
+
+.sale-desc-title {
+  max-width: 436px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.48px;
+  color: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-desc-title {
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: -0.64px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sale-desc-title {
+    max-width: 389px;
+  }
+}
+
+.sale-desc-number {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-prises {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-prises {
+    margin-bottom: 30px;
+  }
+}
+
+.sale-price {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 68px;
+  height: 32px;
+  padding: 8px 12px;
+  color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.32px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.1);
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-price {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.4px;
+  }
+}
+
+.sale-old-price {
+  display: inline;
+  color: rgba(251, 251, 251, 0.5);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.24px;
+  text-decoration-line: line-through;
+}
+
+.sale-desc-text {
+  margin-bottom: 28px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  color: rgba(251, 251, 251, 0.7);
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-desc-text {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+}
+
+.sale-watch-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 398px;
+}
+
+.sale-watch-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border-radius: 8px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+}
+
+@media only screen and (min-width: 768px) {
+  .sale-watch-type {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}

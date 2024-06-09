@@ -28,6 +28,7 @@ button {
 img {
   display: block;
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -84,4 +85,12 @@ body {
     max-width: 1280px;
     padding: 0 65px;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
