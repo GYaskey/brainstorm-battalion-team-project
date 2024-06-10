@@ -41,3 +41,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+document.getElementById('show-more-button').addEventListener('click', function() {
+    var hiddenItems = document.querySelectorAll('.catalog-hidden');
+    hiddenItems.forEach(function(item) {
+        item.classList.remove('catalog-hidden');
+    });
+    this.style.display = 'none'; 
+});
+
