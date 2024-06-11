@@ -150,10 +150,6 @@
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-header-link-desc:hover,
-.socials-header-link-desc:focus {
-  border: 1px solid rgba(51, 80, 233, 0.1);
-}
 
 .link-header-desc {
   display: flex;
@@ -173,10 +169,13 @@
   fill: #0c0c0c;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-icon-desc:hover,
-.header-icon-desc:hover {
+
+.socials-header-link-desc:hover svg,
+.socials-header-link-desc:focus svg {
+
   fill: #3350e9;
-}
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
 /* #endregion header */
 
 /* #region mobile-menu */
